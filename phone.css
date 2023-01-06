@@ -1,0 +1,81 @@
+#navigation{
+    width: 283%;
+    height: 185px;
+}
+
+.logo img{
+    height: 136px;
+    margin-left: 15px;
+}
+
+.homecontainer{
+    display: block;
+    position: relative;
+    left: 226px;
+    box-sizing: border-box;
+}
+
+.hero img{
+    height: 640px;
+}
+
+.client{
+    display: flex;
+    flex-direction: column;
+    width: 245%;
+    font-size: 41px;
+}
+
+.home{
+    font-size: 75px;
+    padding: 6px 91px;
+}
+
+.home p1{
+    font-size: 5.2rem;
+}
+
+.home p3{
+    font-size: 4.8rem;
+    padding: -2px;
+}
+
+.menu{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin: 0px 12px;
+  left: 380px;
+}
+
+.menu p{
+    width: 64%;
+    font-size: 53px;
+}
+
+.menu h2{
+    font-size: 61px;
+}
+
+.grid-images{
+    margin: -82px -171px;
+    padding: 109px;
+}
+
+.logo1 img{
+   height: 136px;
+}
+
+.support1 input{
+    font-size: 45px;
+    padding: 19px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 282%;
+    font-size: 3.3rem;
+    text-align: center;
+}

@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+.logo{
+    padding: 12px;
+    margin-left: 66px;
+}
+
+.logo img{
+    height: 60px;
+}
+
+#navigation{
+    box-shadow: 5px 5px lightgrey;
+    position: sticky;
+    background-color: azure;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+/* home section */
+.hero img{
+    height: 460px;
+}
+
+.hero{
+    padding: 43px;
+}
+
+.homecontainer{
+    display: flex;
+    margin: 4px;
+}
+
+.home{
+    font-size: 2.8rem;
+    padding: 61px;
+}
+
+.home p1{
+    font-size: 1.2rem;
+    background-color: green;
+}
+
+.home p3{
+    font-size: 1.8rem;
+    font-weight: bold;
+    background-color: orange;
+    padding: 12px;
+    cursor: pointer;
+} 
+
+/* client section */
+.client{
+  display: flex;   
+  margin: 44px;
+  padding: 37px;
+  font-size: 1.2rem;
+}
+
+.image{
+    display: flex;
+    box-shadow: 2px 4px lightgray;
+}
+.image img{
+    height: 84px;
+    padding: 30px 0px;
+}
+
+.discount{
+ padding: 24px;
+}
+
+.fresh{
+ padding: 24px;
+}
+
+.icon{
+ padding: 24px;
+}
+
+#image-2{
+    padding: 0px 15px;
+}
+
+#image-3{
+    padding: 0px 15px;
+} 
+
+/* menu section */
+.menu{
+    text-align: center;
+    font-size: 1.9rem;
+    justify-content: center;
+    align-items: center;
+}
+.menu p{
+
+    background-color: green;
+    color: white;
+    margin: 0px 668px;
+}
+
+.menu h2{
+     margin : 43px 0px;
+}
+
+.grid-images{
+    display: grid;
+    grid-template-areas: 
+    "grid-1 grid-1 grid-2 grid-3"
+    "grid-1 grid-1 grid-2 grid-7"
+    "grid-5 grid-6 grid-4 grid-7";
+    padding: 333px;
+    margin: -326px 9px;
+}
+
+.grid-1:hover{
+    transform: scale(1.08);
+}
+
+.grid-2:hover{
+    transform: scale(1.08);
+}
+
+.grid-3:hover{
+    transform: scale(1.08);
+}
+
+.grid-4:hover{
+    transform: scale(1.08);
+}
+
+.grid-5:hover{
+    transform: scale(1.08);
+}
+
+.grid-6:hover{
+    transform: scale(1.08);
+}
+
+.grid-7:hover{
+    transform: scale(1.08);
+}
+
+.grid-1{
+ grid-area:grid-1;
+
+}
+
+.grid-2{
+  grid-area:grid-2;   
+}
+
+.grid-3{
+ grid-area:grid-3;
+}
+
+.grid-4{
+ grid-area:grid-4;
+}
+
+.grid-5{
+ grid-area:grid-5;
+
+}
+
+.grid-6{
+ grid-area:grid-6;
+}
+
+.grid-7{
+ grid-area:grid-7;
+}
+
+/* footer section */
+
+footer{
+    position: relative;
+    display: flex;
+    background-color: bisque;
+    height: 300px;
+    top: 22px;
+    font-size: 1.2rem;
+}
+
+footer ul{
+    list-style: none;
+}
+
+.logo1 {
+   margin:27px 145px;
+}
+
+.logo1 img{
+    padding:5px 0px;
+}
+
+.mainlinks{
+    padding: 75px 0px;
+}
+
+.mainlinks ul li{
+    padding: 3px;
+}
+
+.mainlinks ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.mainlinks ul li a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.support{
+    padding:75px 107px;
+}
+
+.support ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.support ul li a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.support ul li{
+    padding: 3px;
+}
+
+.support1{
+    padding: 75px 0px;
+}
+
+.support1 ul li{
+    padding: 3px;
+}
+
+.support1 input{
+    font-size: 20px;
+    padding: 3px;
+}
+
