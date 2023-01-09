@@ -1,81 +1,69 @@
+.menu{
+    width: fit-content;
+    font-size: 2.2rem;
+}
+
 #navigation{
-    width: 283%;
-    height: 185px;
+    width: 1600px;
+    height: 180px;
 }
 
 .logo img{
-    height: 136px;
-    margin-left: 15px;
-}
-
-.homecontainer{
-    display: block;
-    position: relative;
-    left: 226px;
-    box-sizing: border-box;
-}
-
-.hero img{
-    height: 640px;
-}
-
-.client{
-    display: flex;
-    flex-direction: column;
-    width: 245%;
-    font-size: 41px;
-}
-
-.home{
-    font-size: 75px;
-    padding: 6px 91px;
-}
-
-.home p1{
-    font-size: 5.2rem;
-}
-
-.home p3{
-    font-size: 4.8rem;
-    padding: -2px;
-}
-
-.menu{
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  margin: 0px 12px;
-  left: 380px;
-}
-
-.menu p{
-    width: 64%;
-    font-size: 53px;
-}
-
-.menu h2{
-    font-size: 61px;
-}
-
-.grid-images{
-    margin: -82px -171px;
-    padding: 109px;
+    height: 140px;
 }
 
 .logo1 img{
-   height: 136px;
+    height: 140px;
+}
+
+.image{
+    width: fit-content;
+}
+
+.client{
+    flex-direction: column;
+    margin-left: 193px;
+    margin-right: 100px;
+    margin-right: -374px;
+    font-size: 34px;
+}
+
+.hero img{
+    height:700px;
+}
+
+.home{
+  font-size: 3.4rem;
+}
+
+.homecontainer{
+    flex-direction: column;
+    width: max-content;
+    padding: 0px 54px;
+    margin-left: 148px;
+}
+
+.mainlinks{
+    font-size: 35px;
+    margin: 0px 191px;
+}
+
+.support{
+    font-size: 35px;
+    margin: 0px 78px;
+}
+
+.support1{
+    font-size: 35px;
+    margin: -64px 184px;
 }
 
 .support1 input{
-    font-size: 45px;
-    padding: 19px;
+   font-size: 30px;
 }
 
 footer{
-    display: flex;
+    width: 1600px;
+    height: 1100px;
     flex-direction: column;
-    height: 100%;
-    width: 282%;
-    font-size: 3.3rem;
-    text-align: center;
 }
